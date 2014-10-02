@@ -1,0 +1,20 @@
+{
+  "name": "glow-lines",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "dependencies": {
+    "coquette": "git://github.com/thomasboyt/coquette.git#commonjs"
+  },
+  "devDependencies": {
+    "esnext-loader": "^1.1.0",
+    "webpack": "^1.4.4",
+    "webpack-dev-server": "^1.6.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/webpack-dev-server"
+  },
+  "author": "Thomas Boyt <me@thomasboyt.com>",
+  "license": "MIT"
+}
