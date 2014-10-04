@@ -1,7 +1,7 @@
-var Coq = require('coquette').Coquette;
+var Coquette = require('coquette');
 
 var Game = function() {
-  this.c = new Coq(this, "canvas", 500, 150, "#000");
+  this.c = new Coquette(this, "canvas", 500, 150, "#000");
 
   // paramour
   this.c.entities.create(Person, { center: { x:250, y:40 }, color:"#099" });
