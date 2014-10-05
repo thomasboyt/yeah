@@ -1,7 +1,5 @@
 var webpack = require('webpack');
 
-var root = '/trading/';
-
 module.exports = {
   entry: {
     app: './src/main.js',
